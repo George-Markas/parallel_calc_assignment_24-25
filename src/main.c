@@ -4,9 +4,6 @@
 #include "read_int.h"
 #include "menu.h"
 
-// Non-negative and integer check
-#define valid_input(x) ((x) >= 0 && (x) == (int)(x))
-
 int main(int argc, char *argv[]) {
     // Initialize MPI
     MPI_Init(&argc, &argv);
