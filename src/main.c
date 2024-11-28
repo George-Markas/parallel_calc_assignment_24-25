@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
             // Read sequence numbers
             for(int i = 0; i < length; i++) {
                 printf("Input number (%d/%d):\n", i + 1, length);
-                read_int( &array[i]);
+                read_int(&array[i], 1, 1);
                 putc('\n', stdout);
             }
 
